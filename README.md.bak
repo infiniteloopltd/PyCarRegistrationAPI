@@ -19,3 +19,9 @@ An account username and password is required from [VehicleRegistrationApi.com](h
  from CarRegistration import *
  CarRegistration("BL64JTZ","***YOUR USERNAME***","***YOUR PASSWORD***")
 ```
+
+# Sample output
+
+```json
+{u'RegistrationYear': u'2015', u'CarModel': {u'CurrentTextValue': u'208'}, u'NumberOfDoors': {u'CurrentTextValue': u'3'}, u'EngineSize': {u'CurrentTextValue': u'1397CC'}, u'Description': u'2015 Peugeot 208 Active Hdi 70, 1397CC Diesel, 3DR, Manual', u'ABICode': u'39125401', u'Transmission': {u'CurrentTextValue': u'Manual'}, u'ImageUrl': u'http://www.regcheck.org.uk/image.aspx/@UGV1Z2VvdCAyMDg=', u'CarMake': {u'CurrentTextValue': u'Peugeot'}, u'Immobiliser': {u'CurrentTextValue': u''}, u'MakeDescription': u'Peugeot', u'IndicativeValue': {u'CurrentTextValue': u''}, u'VehicleInsuranceGroup': u'35', u'ModelDescription': u'208', u'FuelType': {u'CurrentTextValue': u'Diesel'}, u'NumberOfSeats': {u'CurrentTextValue': 5}, u'DriverSide': {u'CurrentTextValue': u'RHD'}}
+```
