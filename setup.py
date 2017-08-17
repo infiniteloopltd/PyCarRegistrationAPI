@@ -7,7 +7,7 @@ setup(
     author = 'Infinite Loop Development Ltd',
     author_email = 'info@infiniteloop.ie',
     url = 'http://www.VehicleRegistrationApi.com',
-    download_url = 'https://github.com/infiniteloopltd/PyCarRegistrationAPI/archive/0.2.tar.gz',
+    download_url = 'https://github.com/infiniteloopltd/PyCarRegistrationAPI/archive/0.3.tar.gz',
     keywords = ['Car', 'Vehicle', 'Registration'],
     classifiers = [],
 )
