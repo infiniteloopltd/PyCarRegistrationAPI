@@ -7,8 +7,34 @@ across the globe, from the USA, Europe, Australia, and Africa.
 
 An account username and password is required from [VehicleRegistrationApi.com](http://www.VehicleRegistrationApi.com)
 
-The fourth parameter is an endpoint, which is "Check" for the UK,
-or "CheckFrance", "CheckItaly" etc. for respective countries.
+When using the Generic "CarRegistration" function, the fourth parameter is an API endpoint, which can be one of;
+* Check (UK)
+* CheckBelgium 
+* CheckCroatia 
+* CheckCzechRepublic 
+* CheckDenmark 
+* CheckEstonia 
+* CheckFinland 
+* CheckFrance 
+* CheckHungary 
+* CheckIndia 
+* CheckIreland 
+* CheckItaly 
+* CheckNetherlands 
+* CheckNewZealand 
+* CheckNigeria 
+* CheckNorway 
+* CheckPortugal 
+* CheckRussia 
+* CheckSlovakia 
+* CheckSouthAfrica 
+* CheckSpain 
+* CheckSriLanka 
+* CheckSweden 
+* CheckUAE 
+
+For Australia and USA, you must also pass a state parameter, and therefore you must use the CarRegistrationUSA or CarRegistrationAustralia methods.
+
 
 # Installation
 ```python
