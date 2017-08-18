@@ -9,17 +9,34 @@ An account username and password is required from [VehicleRegistrationApi.com](h
 
 The fourth parameter is an endpoint, which is "Check" for the UK,
 or "CheckFrance", "CheckItaly" etc. for respective countries.
-USA / Australia are not currently supported.
 
 # Installation
 ```python
  easy_install CarRegistration
 ```
 
-# Usage
+# Usage (UK)
 ```python
  from CarRegistration import *
  CarRegistration("BL64JTZ","***YOUR USERNAME***","***YOUR PASSWORD***","Check")
+```
+
+# Usage (France)
+```python
+ from CarRegistration import *
+ CarRegistration("Eg258ma","***YOUR USERNAME***","***YOUR PASSWORD***","CheckFrance")
+```
+
+# Usage (USA)
+```python
+ from CarRegistration import *
+ CarRegistrationUSA("H84jae","nj","***YOUR USERNAME***","***YOUR PASSWORD***")
+```
+
+# Usage (Australia)
+```python
+ from CarRegistration import *
+ CarRegistrationAustralia("YHC14Y","NSW","***YOUR USERNAME***","***YOUR PASSWORD***")
 ```
 
 # Sample output
